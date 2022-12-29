@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/fondo-envio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.enviada {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    gap: 30px;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(205, 201, 227);
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .enviada {
+        font-size: 2.75rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .enviada {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .enviada {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .enviada {
+        font-size: 1.25rem;
+    }
+}

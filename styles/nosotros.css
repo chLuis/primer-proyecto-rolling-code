@@ -1,0 +1,71 @@
+.lc-foto-nosotros-container {
+    margin: 0;
+    padding: 0;
+}
+
+.lc-nosotros {
+    padding: 0;
+    min-height: 98vh;
+    height: 100%;
+    background-image: url("../img/about-us-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card{
+    background-color: #1a1a1a90;
+    backdrop-filter: blur(12px);
+    
+}
+.card:hover {
+    background-color: #141414cd;
+    backdrop-filter: blur(20px);
+}
+
+
+.lc-nosotros h2 {
+    padding: 10px 0px;
+    background-color: #4d4c4ccf;
+    letter-spacing: 8px;
+    color: white;
+    font-size: 2rem;
+}
+.lc-nosotros-div{
+    display: flex;
+    max-width: 75%;
+    flex-direction: column;
+    align-items: center;
+}
+.lc-nosotros-2cartas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lc-nosotros-blog {
+    padding: 10px 0px;
+    background-color: #4d4c4ccf;
+    color: white;
+    text-align: justify;
+}
+
+.lc-foto-nosotros {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.lc-foto-nosotros:hover {
+    transform: scale(1.1);
+}
+
+.lc-quienes-card:hover {
+    box-shadow: 0px 0px 8px 3px black;
+    border-radius: 10px;
+
+}
+
+
+

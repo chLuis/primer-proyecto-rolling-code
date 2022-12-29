@@ -1,0 +1,131 @@
+*,
+::before,
+::after
+{
+    box-sizing: border-box;
+}
+html {
+    background: rgb(44, 44, 44);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+section {
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: rgb(212, 212, 212);
+}
+section h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    background-color: rgba(36, 35, 35, 0.885);
+    width: 100%;
+}
+
+
+section button:hover {
+    background: rgb(104, 104, 123);
+    cursor: pointer;
+}
+.parallax,
+.no-parallax {
+    background-image: url("../img/1288503.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h2 {
+    text-align: center;
+}
+
+
+
+
+.botonera {
+    position: fixed;
+    background-color: rgba(44, 44, 44, 0.736);
+    border: 1px solid  rgba(44, 44, 44, 0.736);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 1%;
+    right: 1%;
+    margin-bottom: 16px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.botonera:hover {
+    border: 1px solid white;
+}
+
+.btn-botonera {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-botonera:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.2s;
+    scale: 1.5;
+}
+
+.btn-volver:hover {
+    scale: 1.1;
+    color: whitesmoke;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+@media (max-width: 575px) {
+    .botonera {
+        gap: 6px;
+        width: max-content;
+        justify-self: center;
+        left: 0px;
+    }
+    .botonera a div {
+        margin: 0;
+    }
+}
+@media (max-width: 290px) {
+    .botonera {
+        scale: 0.7;
+        left: -10px;
+    }
+}
+
+.lc-fondos {
+    background-color: #ffffffe8;
+    font-weight: 600;
+}
+
+section h2{
+    margin-top: 60px;
+    margin-bottom: -50px;
+    width: 70%;
+    border-radius: 20px;
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Worl Cup 2022</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./styles/ir-arriba.css"/>
+        <script src="https://kit.fontawesome.com/5ca84b6286.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body id="inicio">
+<!------------------------------------- Header ------------------------------------------------>
+        <header class="jose-header d-flex justify-content-between align-items-center px-1 fijotop">
+            <div>
+                <span class="fifa-header"><img src="./img/fifa-header.jpg" alt="fifa"></span>
+            </div>
+            <div class="d-flex gap-2">
+                <span class="text-light j-header-but">COLECCIÓN FIFA+</span>
+                <span class="text-light j-header-but">FIFA STORE</span>
+            </div>
+        </header>
+        
+        <!------------------------------------- Navbar ------------------------------------------------>
+        <nav class="navbar col-12 navbar-expand-lg navbar-dark backcolornavj fijotop"> <!-- nav!!!!!!-->
+            <div>
+                <img class="tamañoj d-none d-lg-block m-2" src="https://digitalhub.fifa.com/transform/3a170b69-b0b5-4d0c-bca0-85880a60ea1a/World-Cup-logo-landscape-on-dark?io=transform:fill&quality=75" alt="fifa">
+            </div>
+            <div class="container-fluid backcolornavj fijotop">
+              <a class="navbar-brand" href="./index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./articulos.html">Artículos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./comunicate.html">Contacto</a>
+                  </li>
+                </ul>
+                 
+        <!-- Button trigger modal --------------------------------------------------------------------------->
+        
+                  <button type="button" class="btn btn-primary joseee" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    USUARIO
+                  </button>
+        <!-- Modal -------------------------------------------------------------------------------------------->
+        
+        <div class="modal fade" id="exampleModal" tabindex="-21" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Cuenta FIFA 2022</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Requisitos:</li>
+                  <li>Correo</li>
+                  <li>Nombre completo</li>
+                  <li>Edad</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Registrarse</button>
+                <button type="button" class="btn btn-primary">Iniciar sesión</button>
+              </div>
+            </div>
+          </div>
+        </div>
+              </div>
+            </div>
+        </nav>
+        <!------------------------------------- PORTADA ------------------------------------------------>
+        <section id="portada" class="lc-portada d-flex justify-content-between mx-0 p-0 m-0">
+            <div class="col-xl-3 lc-header-partidos mx-2 flex-column">
+                <div>
+                    <!--  h4 de los partidos    -->
+                    <h4 class="text-light d-flex justify-content-center flex-nowrap">
+                        <i class="fa-solid fa-arrow-right me-2 align-self-end"></i>
+                        Partidos<i class="fa-solid fa-arrow-left ms-2 align-self-end"></i>
+                    </h4>
+                </div>
+                <!------------------ Los partidos ---------------->
+                <div class="lc-4-partidos gap-md-1 col-md-12 my-2">
+                    <!---------------- Los primeros 2 ---------------->
+                    <div class="col-xl-12 w-75 mx-auto">
+                        <div class="portada-partidos d-flex flex-column bg-light p-2 rounded">
+                            <div class="d-flex justify-content-between">
+                                <span>Final</span>
+                                <span>18 dic 2022</span>
+                            </div>
+                            <div class="lc-estadio">
+                                Estadio de Lusail
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/ARG?tx=c_fill,g_auto,q_auto" alt="bandera-argentina" width="20px" height="16px">
+                                            Argentina
+                                        </p>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/FRA?tx=c_fill,g_auto,q_auto" alt="bandera-francia" width="20px" height="16px">
+                                            Francia
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="my-0"><sub class="pe-2">(4)</sub>3</p>
+                                        <p class="my-0"><sub class="pe-2">(2)</sub>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portada-partidos d-flex flex-column bg-light mt-1 p-2 rounded">
+                            <div class="d-flex justify-content-between">
+                                <span>Partido por el tercer puesto</span>
+                                <span>17 dic 2022</span>
+                            </div>
+                            <div class="lc-estadio">Estadio Internacional Khalifa</div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/CRO?tx=c_fill,g_auto,q_auto" alt="bandera-croacia" width="20px" height="16px">
+                                            Croacia
+                                        </p>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/MAR?tx=c_fill,g_auto,q_auto" alt="bandera-marruecos" width="20px" height="16px">
+                                            Marruecos
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="my-0">2</p>
+                                        <p class="my-0">1</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------- los ultimos 2 partidos ---------------->
+                    <div class="col-xl-12 w-75 mx-auto">
+                        <div class="portada-partidos d-flex flex-column bg-light my-1 p-2 rounded">
+                            <div class="d-flex justify-content-between">
+                                <span>Semifinal 2</span>
+                                <span>14 dic 2022</span>
+                            </div>
+                            <div class="lc-estadio">Estadio Al Bayt</div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/FRA?tx=c_fill,g_auto,q_auto" alt="bandera-francia" width="20px" height="16px">
+                                            Francia
+                                        </p>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/MAR?tx=c_fill,g_auto,q_auto" alt="bandera-marruecos" width="20px" height="16px">
+                                            Marruecos
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="my-0">2</p>
+                                        <p class="my-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portada-partidos d-flex flex-column bg-light my-1 p-2 rounded">
+                            <div class="d-flex justify-content-between">
+                                <span>Semifinal 1</span>
+                                <span>13 dic 2022</span>
+                            </div>
+                            <div class="lc-estadio">Estadio de Lusail</div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/ARG?tx=c_fill,g_auto,q_auto" alt="bandera-argentina" width="20px" height="16px">
+                                            Argentina
+                                        </p>
+                                        <p class="my-0">
+                                            <img src="https://cloudinary.fifa.com/api/v3/picture/flags-sq-4/CRO?tx=c_fill,g_auto,q_auto" alt="bandera-croacia" width="20px" height="16px">
+                                            Croacia
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="my-0">3</p>
+                                        <p class="my-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------- Carousel -------------------->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade lc-carousel-portada" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="./portada-1.html">
+                            <img
+                                src="./img/argentinaCampeon.webp"
+                                class="d-block position-relative w-100"
+                                alt="argentina-campeon"
+                            />
+                            <div class="lc-texto-noticias-portada position-absolute bottom-0 start-0 ps-3 py-3 my-0 w-100">
+                                <p>La pelicula del Campeón</p>
+                                <h2>¡Argentina se consagró en Catar 2022!</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="./portada-2.html">
+                            <img
+                                src="./img/goleadores.webp"
+                                class="d-block w-100"
+                                alt="goleadores"
+                            />
+                            <div class="lc-texto-noticias-portada position-absolute bottom-0 start-0 ps-3 py-3 my-0 w-100">
+                                <h2>Los máximos goleadores de Catar 2022</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#grupos">
+                            <div class="lc-texto-noticias-portada position-absolute bottom-0 start-0 ps-3 py-3 my-0 w-100">
+                                <h2>Los equipos que participan</h2>
+                            </div>
+                            <img
+                                src="./img/grupo1s.jpg"
+                                class="d-block w-100"
+                                alt="grupos"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <!----------------------------------- seccion: Grupos  --------------------------------------->
+        <span id="grupos"></span>
+        <section id="grupo" class="lc-grupos p-0 pt-5">
+            <div
+                class="d-flex flex-column lc-grupos-div"
+            >
+                <h2 class="text-light bg-dark bg-opacity-75 m-4 my-4 px-3 w-75 mx-auto">
+                    Fase de grupos
+                </h2>
+                <div class="row d-flex justify-content-center m-0 px-4">
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-a">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo A
+                            </h4>
+                            <img
+                                src="./img/grupoA.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-b">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo B
+                            </h4>
+                            <img
+                                src="./img/grupoB.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-c">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo C
+                            </h4>
+                            <img
+                                src="./img/grupoC.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-d">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo D
+                            </h4>
+                            <img
+                                src="./img/grupoD.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center m-0 px-4 mb-4">
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-e">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo E
+                            </h4>
+                            <img
+                                src="./img/grupoE.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-f">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo F
+                            </h4>
+                            <img
+                                src="./img/grupoF.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-g">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo G
+                            </h4>
+                            <img
+                                src="./img/grupoG.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                    <div class="card-G col-5 col-lg-3">
+                        <a href="./groups.html#grupo-h">
+                            <h4 class="text-center bg-dark py-2 bg-opacity-75">
+                                Grupo H
+                            </h4>
+                            <img
+                                src="./img/grupoH.jpg"
+                                class="card-img"
+                                alt="..."
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------- seccion: Nosotros?  --------------------------------------->
+
+
+        <!----------------------------------- seccion: Comunicate   --------------------------------------->
+
+
+
+
+
+<!----------------    boton para ir arriba     -------------->
+        <div>
+            <a href="#inicio" class="ir-arriba">
+                <span class="text-center"><i class="fa-solid fa-circle-up"></i></span>
+            </a>
+        </div>
+
+
+        <footer class="bg-dark">
+            <div class="card text-center">
+              <div class="card-body colorfoojose">
+                <h5 class="card-title"> <img src="./img/fifa2022.png" alt="fifa"> </h5>
+                <a href="https://www.facebook.com/fifa" class="btn btn-primary"><img src="./img/facebook.svg" alt="facebook"></a>
+                <a href="https://www.youtube.com/FIFATV" class="btn btn-primary"><img src="./img/youtube.svg" alt="youtube"></a>
+                <a href="https://twitter.com/FIFAcom" class="btn btn-primary"><img src="./img/twitter.svg" alt="twitter"></a>
+                <a href="https://www.tiktok.com/@fifaworldcup" class="btn btn-primary"><img src="./img/twitch.svg" alt="twitch"></a>
+              </div>
+            </div>
+      </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        
+    </body>
+</html>

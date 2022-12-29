@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* #020f2a */
+
+body{
+    background-color: rgb(228, 232, 240);
+}
+
+
+
+hr{
+    box-sizing: initial;
+    overflow: visible;
+    border: solid 2px;
+    background-color: #00b8ff;
+    background-size: 10px;
+    height: 1px;
+}
+
+.division-1{
+    color: #0369c7;
+    height: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.division_2{
+    background-color: #00b8ff;
+    height: 10px;
+    border: 0;
+    border-bottom: 3px solid #f12c4b;
+    margin: 0 0 2rem;
+    padding: 0;
+
+}
+.card{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.titulo-principal{
+    font-family:  'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.825rem;
+ 
+}
+
+
+.mbappe_info{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+
+}
+.subtitulo-imagen{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+}
+
+.primera-lista{
+    font-family:'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: bolder;
+}
+
+.result-eng-iran{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500 bolder;
+    font-size: 1.275rem;
+    
+}
+
+.cont-result{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.resumen-partido-titulo{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.275rem;
+}
+
+.cont-resumen{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.moment-clave{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.275rem;
+}
+
+.texto-momento-clave{
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: .875rem;
+    line-height: 1.6;
+}
+
+.datos-partido{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+    
+}
+
+.list-estadisticas{
+    font-family:'Poppins', sans-serif;
+    font-weight: 300 bolder;
+    font-size: .875rem;
+}
+
+.frases-jugadores{
+    font-family:'Poppins', sans-serif;
+    font-size: 1.275rem;
+}
+
+.subtitulo-frases{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    white-space: pre-line;
+
+}
+
+.texto-frases{
+    font-family:'Poppins', sans-serif;
+    font-weight: 300 bolder;
+    font-size: .9rem;
+}
+
+.tit-02{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    white-space: pre-line;
+    
+}
+
+.tit-02-01{
+    font-family:'Poppins', sans-serif;
+    font-weight: 300 bolder;
+    font-size: .9rem;
+}
+
+
+.jug-partido{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.275rem;
+}
+
+.footer-notice{
+
+    font-family:'Poppins', sans-serif;
+
+}
+
+.mas-fifa{
+    font-family:'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 1.2rem;
+}
+
+.cont-mas-fifa{
+    font-family:'Poppins', sans-serif;
+    font-weight:300;
+    font-size: .9rem;
+}
+

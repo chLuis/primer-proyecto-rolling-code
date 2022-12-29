@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+.tamañoj{
+    width: 100px;
+    height: 40px;
+    padding-left: 5px;
+}
+nav {
+  width: 100vh;
+  height: 55px;
+}
+.backcolornavj{
+  background-color: #550065 !important;
+}
+.backcolornavj1{
+  color: rgb(65, 33, 159) !important;
+}
+.jose-header {
+  background-color: #470066;
+  height: 30px
+}
+.j-header-but{
+  color: white;
+  font-size: 0.8rem;
+}
+.joseee{
+  background-color: rgb(127, 95, 36) !important;
+  padding: 2px 10px;
+  margin: 5px 0px;
+}
+
+.fijotop {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.show {
+  z-index: 0 !important;
+}

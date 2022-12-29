@@ -1,0 +1,17 @@
+footer {
+    box-sizing: border-box;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.colorfoojose{
+    background-color: #550065 !important;
+    color: aliceblue !important;
+}
+
+.card {
+    border: 1px solid #550065;
+    border-radius: 0px;
+}

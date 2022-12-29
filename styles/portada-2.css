@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.lc-linea-divisora {
+  border: 1px solid #00b8ff;
+}
+
+
+
+.tamañoj{
+    width: 80px;
+    height: 50px;
+}
+nav {
+  width: 100vh;
+}
+.backcolornavj{
+  background-color: #550065;
+}
+.backcolornavj1{
+  color: rgb(65, 33, 159) !important;;
+}
+.jose-header {
+  background-color: #470066;
+  height: 30px
+}
+.j-header-but{
+  color: white;
+  font-size: 0.8rem;
+}
+.joseee{
+  background-color: rgb(156, 116, 41) !important;
+}
+
+.ac-card{
+  background:linear-gradient( #550065, rgb(70, 0, 101), #020f2a);
+}
+
+.lc-video {
+  max-height: 70vh;
+}

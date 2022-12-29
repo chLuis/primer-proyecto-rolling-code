@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/hd/fifa-world-cup-2022-gold-trophy-khnlyjfes0unyk6f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    backdrop-filter: blur(2px);
+    color: white;
+    
+}
+.title-principal{
+    background-color: rgba(67, 67, 67, 0.461);
+    font-size: 80px;
+    font-family: helvetica;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+@media (max-width: 790px) {
+    .title-principal {
+        font-size: 40px
+    }
+}
+
+.title {
+    margin: center;
+    margin-top: 12px;
+    width: 100%;
+    max-width: 40rem;
+    font-size: 20px;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    cursor: default;
+    transition: all 400ms ease;
+
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgb(0, 0, 0, 0.5);
+
+    border-top-color: rgb(225, 225, 225, 0.5);
+    border-left-color: rgb(225, 225, 225, 0.5);
+    border-bottom-color: rgb(225, 225, 225, 0.1);
+    border-right-color: rgb(225, 225, 225, 0.1);
+}
+
+.cb1 {
+    background-color: rgba(49, 49, 49, 0.959);
+}
+
+.cb2 {
+    background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3 ));
+}
+
+.btn{
+    border-radius: 2rem;
+}
+.btn:hover {
+    box-shadow: 0 0.3rem 1rem rgba(0, 0 , 0, 0.3);
+    transform: translateY(-3%);
+}
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}

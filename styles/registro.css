@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400&family=Poppins:wght@200;300;400;500&display=swap');
+
+
+body{
+  background-color: #1d0522;
+}
+.ac-card{
+  font-family: "Poppins";
+  background:linear-gradient( #550065, rgb(70, 0, 101), #020f2a)
+}
+
+
+#inicio {
+  background-color: #1d0522;
+}

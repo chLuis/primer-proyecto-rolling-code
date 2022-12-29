@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Campeón</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+    <link rel="stylesheet" href="./styles/portada-1.css">
+    <link rel="stylesheet" href="./styles/navbar.css"/>
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/ir-arriba.css"/>
+</head>
+
+<body class="bg-dark bg-opacity-10">
+    <header class="jose-header d-flex justify-content-between align-items-center px-1 fijotop">
+        <div>
+            <span class="fifa-header"><img src="./img/fifa-header.jpg" alt="fifa"></span>
+        </div>
+        <div class="d-flex gap-2">
+            <span class="text-light j-header-but">COLECCIÓN FIFA+</span>
+            <span class="text-light j-header-but">FIFA STORE</span>
+        </div>
+    </header>
+    
+    <!------------------------------------- Navbar ------------------------------------------------>
+    <nav class="navbar col-12 navbar-expand-lg navbar navbar-dark backcolornavj "> <!-- nav!!!!!!-->
+        <div>
+            <img class="tamañoj d-none d-lg-block m-2" src="https://digitalhub.fifa.com/transform/3a170b69-b0b5-4d0c-bca0-85880a60ea1a/World-Cup-logo-landscape-on-dark?io=transform:fill&quality=75" alt="fifa">
+        </div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./articulos.html">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./comunicate.html">Contacto</a>
+              </li>
+            </ul>
+             
+    <!-- Button trigger modal --------------------------------------------------------------------------->
+    
+              <button type="button" class="btn btn-primary joseee" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                USUARIO
+              </button>
+    <!-- Modal -------------------------------------------------------------------------------------------->
+    
+    <div class="modal fade" id="exampleModal" tabindex="-21" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cuenta FIFA 2022</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Requisitos:</li>
+              <li>Correo</li>
+              <li>Nombre completo</li>
+              <li>Edad</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Registrarse</button>
+            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+        </div>
+    </nav>
+    <!------------------------------------- PORTADA ------------------------------------------------>
+
+
+    <section class="d-flex flex-column">
+        <div class="containter d-flex bg-white flex-column justify-content-center align-items-center col-12 col-lg-8 mx-auto lc-video">
+            <iframe width="1000" height="450" src="https://www.youtube.com/embed/M8ADmRMyh-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="container px-5 bg-white py-0 my-0">
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="lc-img" src="./img/LOGO-QATAR-2022-5.jpg.webp" alt="logo-qatar">
+                <h2 class="lc-h2-titulo">La película del campeón: ¡Argentina se consagró en Catar 2022!</h2>
+            </div>
+            <div class="lc-linea-divisora"></div>
+            <div class="pt-4 pb-5">
+                <span class="pe-4">18 dic 2022</span> <span>4 minutos</span>
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+                <span><a href="javascript:history.back(-1);" title="Ir la página anterior" class="p-2 mx-5 bg-dark rounded text-light">Volver</a></span>
+            </div>    
+        </div>
+    </section>
+
+    
+    <footer>
+      <div class="card text-center">
+        <div class="card-body colorfoojose">
+          <h5 class="card-title"> <img src="./img/fifa2022.png" alt="fifa"> </h5>
+          <p class="card-text">Contacto</p>
+          <a href="https://www.facebook.com/fifa" class="btn btn-primary"><img src="./img/facebook.svg" alt="facebook"></a>
+          <a href="https://www.youtube.com/FIFATV" class="btn btn-primary"><img src="./img/youtube.svg" alt="youtube"></a>
+          <a href="https://twitter.com/FIFAcom" class="btn btn-primary"><img src="./img/twitter.svg" alt="twitter"></a>
+          <a href="https://www.tiktok.com/@fifaworldcup" class="btn btn-primary"><img src="./img/twitch.svg" alt="twitch"></a>
+        </div>
+      </div>
+    </footer>
+    
+
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"
+        ></script>
+</body>
+</html>

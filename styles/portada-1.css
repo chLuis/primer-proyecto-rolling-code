@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  
+  iframe, .container {
+    width: 75vw;
+    min-width: 75vw;
+  }
+  
+  .lc-linea-divisora {
+    border: 1px solid #00b8ff;
+  }
+  
+  @media (max-width: 1010px){
+    .lc-img {
+      display: none;
+    }
+    .lc-h2-titulo {
+      padding: 20px 0px;
+    }
+    iframe {
+      height: 300px;
+    }
+    footer {
+      bottom: 0%;
+    }
+  }
+@media (max-width: 400px) {
+  iframe {
+    height: 150px;
+  }
+} 
+
+
+
