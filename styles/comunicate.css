@@ -54,15 +54,13 @@ input:focus, textarea:focus {
     scale: 1.2;
     user-select: none;
 }
-i:not(:hover) {
-    transition: 0.35s;
-}
 
 i {
     font-size: 35px;
     transition: 0.3s;
     padding-right:10px;
 }
+
 i:hover {
     transform: rotate(25deg);
     cursor: pointer;
@@ -73,4 +71,22 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lc-mapita{
+    width: 90vw;
+    height: 45vh;
+}
+@media (max-width: 850px){
+.lc-mapita{
+    width: 70vw;
+    height: 35vh;
+}
+}
+
+@media (max-width: 570px){
+.lc-mapita{
+    width: 90vw;
+    height: 35vh;
+}
 }
