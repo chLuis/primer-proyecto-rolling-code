@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -10,17 +9,16 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
-    backdrop-filter: blur(2px);
     color: white;
-    
 }
+
 .title-principal{
-    background-color: rgba(67, 67, 67, 0.461);
+    background-color: rgba(67, 67, 67, 0.819);
     font-size: 80px;
     font-family: helvetica;
     text-align: center;
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 @media (max-width: 790px) {
     .title-principal {
@@ -32,18 +30,15 @@ body {
     margin: center;
     margin-top: 12px;
     width: 100%;
-    max-width: 40rem;
     font-size: 20px;
     text-align: center;
     font-family: helvetica;
 }
 
-.card {
+.p-card {
     width: 90%;
     max-width: 400px;
-    padding: 1rem;
     border-radius: 1rem;
-    border: 1px solid transparent;
     cursor: default;
     transition: all 400ms ease;
 
@@ -71,7 +66,7 @@ body {
     box-shadow: 0 0.3rem 1rem rgba(0, 0 , 0, 0.3);
     transform: translateY(-3%);
 }
-.card:hover {
+.p-card:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
     transition: all 400ms ease;

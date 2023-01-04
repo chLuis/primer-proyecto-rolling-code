@@ -8,7 +8,7 @@ body {
 }
 
 .lc-section-comunicate {
-    background-color: rgba(5, 5, 54, 0.911);
+    background-color: rgba(5, 5, 54, 0.826);
     color: rgb(255, 250, 250);
 }
 
@@ -27,16 +27,33 @@ input:focus, textarea:focus {
     background-color: #5a1b95;
 }
 .btn-enviar{
+    position: relative;
     background-color: white;
     border-radius: 5px;
     font-weight: bolder;
-}
-.btn-enviar:hover{
-    transition: 0.5s;
-    letter-spacing: 3px;
-    background-color: rgb(220, 220, 220);
+    overflow: hidden;
 }
 
+.btn-enviar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 150%;
+    height: 100%;
+    background-color: rgb(70, 194, 80);
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 0.7s;
+}
+.btn-enviar:hover::before{
+    letter-spacing: 3px;
+    transform: scaleX(1) skewX(35deg);
+}
+.texto-en-boton{
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 1;
+}
 
 .lc-comunicate-imagen {
     background-image: url("../img/comunicate.jpg");
