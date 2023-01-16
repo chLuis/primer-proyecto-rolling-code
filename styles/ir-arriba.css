@@ -6,9 +6,10 @@
     bottom: 1%;
     right: 1%;
     margin-bottom: 16px;
-    padding: 6px 10px;
+    padding: 1px 5px;
     border-radius: 50%;
     transition: 0.5s;
+    z-index: 1;
   }
   .ir-arriba:hover {
     background: white;
@@ -31,4 +32,11 @@
   
   a:hover {
     color: white;
+  }
+
+  .flecha-arriba {
+    color: white;
+  }
+  .flecha-arriba:hover{
+    color: black;
   }

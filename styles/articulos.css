@@ -59,7 +59,7 @@ body {
     background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.3 ));
 }
 
-.btn{
+.btn-mas{
     border-radius: 2rem;
 }
 .btn:hover {

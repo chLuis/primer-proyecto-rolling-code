@@ -1,0 +1,64 @@
+.cantidad-comentarios{
+    font-size: 1rem;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    padding: 3px 7px;
+
+}
+
+.lc-avatar-comentarista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    font-weight: bolder;
+    border-radius: 50%;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.lc-comentario{
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.comentario{
+    width: fit-content;
+}   
+.lc-tiempo-comentario{
+    align-self: center;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.separar-avatar-comentario {
+    border: 0.5px solid rgb(140, 140, 140);
+}
+
+
+.btn-enviar-consulta{
+    height: 38px;
+    width: 60px;
+    padding: 0px 1px;
+    border: 1px solid rgb(168, 168, 168);
+    background-color: rgba(48, 21, 122, 0.8);    
+    color: white;
+}
+
+@media (max-width: 600px) {
+.lc-avatar-comentarista{
+    height: 30px;
+    width: 30px;
+}
+}
+
+.denunciar{
+    font-size: 0.8rem;
+    color: rgb(4, 4, 153);
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+ }

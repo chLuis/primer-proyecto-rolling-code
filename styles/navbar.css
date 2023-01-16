@@ -47,6 +47,7 @@ nav {
 .btn-ingresar{
   width: 125px;
   transition: 0.5s;
+  padding: 2px 0px !important;
 }
 
 .btn-ingresar:hover {

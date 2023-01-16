@@ -23,11 +23,14 @@ input, textarea{
     border-radius: 5px;
     border: 1px solid white;
 }
+
 input:focus, textarea:focus {
     background-color: #5a1b95;
 }
+
 .btn-enviar{
     position: relative;
+    width: fit-content;
     background-color: white;
     border-radius: 5px;
     font-weight: bolder;
@@ -37,18 +40,19 @@ input:focus, textarea:focus {
 .btn-enviar::before{
     content: '';
     position: absolute;
-    top: 0;
+    bottom: 0%;
     left: -50px;
-    width: 150%;
+    width: 100%;
     height: 100%;
     background-color: rgb(70, 194, 80);
     transform: scaleX(0) skewX(35deg);
     transform-origin: left;
     transition: transform 0.7s;
 }
+
 .btn-enviar:hover::before{
     letter-spacing: 3px;
-    transform: scaleX(1) skewX(35deg);
+    transform: scaleX(2) skewX(35deg);
 }
 .texto-en-boton{
     background-color: rgba(240, 248, 255, 0);
@@ -72,19 +76,19 @@ input:focus, textarea:focus {
     user-select: none;
 }
 
-i {
+.lc-i {
     font-size: 35px;
     transition: 0.3s;
     padding-right:10px;
 }
 
-i:hover {
+.lc-i:hover {
     transform: rotate(25deg);
     cursor: pointer;
     scale: 1.4;
 }
 
-button {
+.btn-enviar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,4 +110,9 @@ button {
     width: 90vw;
     height: 35vh;
 }
+}
+
+
+textarea:focus, input:focus {
+    box-shadow: 0px 0px 5px 6px rgb(9, 174, 216);
 }

@@ -15,78 +15,96 @@
     <link rel="stylesheet" href="./styles/navbar.css"/>
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/ir-arriba.css"/>
+    <link rel="stylesheet" href="./styles/comentarios.css"/>
+    <script src="https://kit.fontawesome.com/5ca84b6286.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-dark bg-opacity-10">
-    <header class="jose-header d-flex justify-content-between align-items-center px-1 fijotop">
-        <div>
-            <span class="fifa-header"><img src="./img/fifa-header.jpg" alt="fifa"></span>
-        </div>
-        <div class="d-flex gap-2">
-            <span class="text-light j-header-but">COLECCIÓN FIFA+</span>
-            <span class="text-light j-header-but">FIFA STORE</span>
-        </div>
-    </header>
-    
-    <!------------------------------------- Navbar ------------------------------------------------>
-    <nav class="navbar col-12 navbar-expand-lg navbar navbar-dark backcolornavj "> <!-- nav!!!!!!-->
-        <div>
-            <img class="tamañoj d-none d-lg-block m-2" src="https://digitalhub.fifa.com/transform/3a170b69-b0b5-4d0c-bca0-85880a60ea1a/World-Cup-logo-landscape-on-dark?io=transform:fill&quality=75" alt="fifa">
-        </div>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./articulos.html">Artículos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./comunicate.html">Contacto</a>
-              </li>
-            </ul>
-             
-    <!-- Button trigger modal --------------------------------------------------------------------------->
-    
-              <button type="button" class="btn btn-primary joseee" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                USUARIO
-              </button>
-    <!-- Modal -------------------------------------------------------------------------------------------->
-    
-    <div class="modal fade" id="exampleModal" tabindex="-21" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Cuenta FIFA 2022</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<body class="bg-dark bg-opacity-10" id="inicio">
+        <!------------------------------------- Header ------------------------------------------------>
+        <header class="jose-header d-flex justify-content-between align-items-center px-1 fijotop">
+          <div>
+              <span class="fifa-header"><img src="./img/fifa-header.jpg" alt="fifa"></span>
           </div>
-          <div class="modal-body">
-            <ul>
-              <li>Requisitos:</li>
-              <li>Correo</li>
-              <li>Nombre completo</li>
-              <li>Edad</li>
-            </ul>
+          <div class="d-flex gap-2">
+              <a href="./404.html"><span class="text-light j-header-but">COLECCIÓN FIFA+</span></a>
+              <a href="./404.html"><span class="text-light j-header-but">FIFA STORE</span></a>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Registrarse</button>
-            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+      </header>
+      
+      <!------------------------------------- Navbar ------------------------------------------------>
+      <nav class="navbar col-12 navbar-expand-lg navbar-dark backcolornavj fijotop"> <!-- nav!!!!!!-->
+          <div class="container-fluid backcolornavj fijotop">
+            <a class="navbar-brand" href="./index.html">
+              <img class="tamañoj d-lg-block m-2" src="https://digitalhub.fifa.com/transform/3a170b69-b0b5-4d0c-bca0-85880a60ea1a/World-Cup-logo-landscape-on-dark?io=transform:fill&quality=75" alt="fifa">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./articulos.html">Artículos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Grupos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./groups.html#grupo-a">Grupo A</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-b">Grupo B</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-c">Grupo C</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-d">Grupo D</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-e">Grupo E</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-f">Grupo F</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-g">Grupo G</a></li>
+                    <li><a class="dropdown-item" href="./groups.html#grupo-h">Grupo H</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./comunicate.html">Contacto</a>
+                </li>
+              </ul>
+               
+      <!-- Button trigger modal --------------------------------------------------------------------------->
+      
+                <button type="button" class="d-flex justify-content-around align-items-center btn btn-ingresar btn-primary joseee" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ingresar <i class="fa-solid fa-user"></i>
+                </button>
+      <!-- Modal -------------------------------------------------------------------------------------------->
+      
+      <div class="modal fade" id="exampleModal" tabindex="-21" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Cuenta FIFA 2022</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Requisitos:</li>
+                <li>Correo</li>
+                <li>Nombre completo</li>
+                <li>Edad</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Registrarse</button>
+              <button type="button" class="btn btn-primary">Iniciar sesión</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+            </div>
           </div>
-        </div>
-    </nav>
-    <!------------------------------------- PORTADA ------------------------------------------------>
+      </nav>
 
-
-    <section class="d-flex flex-column">
+    <section class="d-flex flex-column noticia-contenedor">
         <div class="containter d-flex bg-white flex-column justify-content-center align-items-center col-12 col-lg-8 mx-auto lc-video">
             <iframe width="1000" height="450" src="https://www.youtube.com/embed/M8ADmRMyh-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -97,17 +115,100 @@
             </div>
             <div class="lc-linea-divisora"></div>
             <div class="pt-4 pb-5">
-                <span class="pe-4">18 dic 2022</span> <span>4 minutos</span>
+                <span class="pe-4">18 dic 2022</span> <span>4 horas</span>
             </div>
-            <div class="d-flex justify-content-center mb-2">
-                <span><a href="javascript:history.back(-1);" title="Ir la página anterior" class="p-2 mx-5 bg-dark rounded text-light">Volver</a></span>
-            </div>    
-        </div>
-    </section>
+          </div>
+        </section>
+        
+        <section class="lc-section-comentarios container mt-2 mb-5">
+          <h5 class="d-flex align-items-center gap-2">Comentarios <span class="cantidad-comentarios">5</span></h5>
+          <div class="comentarios d-flex flex-column gap-2">
+            <div class="comentario rounded d-flex gap-2 flex-nowrap bg-light p-2">
+              <span class="lc-avatar-comentarista bg-info rounded p-3">LC</span>
+              <span class="separar-avatar-comentario"></span>
+              <div class="d-flex flex-column">
+                <span class="lc-comentario bg-white px-2 py-1 border-1 rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fugiat velit ipsa numquam laudantium cum.</span> 
+                <div>
+                  <i class="mx-1 fa-solid fa-thumbs-up"></i>14
+                  <i class="mx-1 fa-solid fa-thumbs-down"></i>5
+                  <span class="denunciar">Denunciar</span>
+                  <span class="mx-2">-</span>
+                  <span class="lc-tiempo-comentario">Hace 2 horas.</span>
+                </div>
+              </div>
+            </div>
+            <div class="comentario rounded d-flex gap-2 flex-nowrap bg-light p-2">
+              <span class="lc-avatar-comentarista bg-success rounded p-3">FG</span>
+              <span class="separar-avatar-comentario"></span>
+              <div class="d-flex flex-column">
+                <span class="lc-comentario bg-white px-2 py-1 border-1 rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quos porro dolores impedit. Eligendi quas facere voluptatibus harum veniam accusantium explicabo delectus! Dolores eos aliquid quis rem sed? Molestiae nobis accusamus autem?</span> 
+                <div>
+                  <i class="mx-1 fa-solid fa-thumbs-up"></i>22
+                  <i class="mx-1 fa-solid fa-thumbs-down"></i>6
+                  <span class="denunciar">Denunciar</span>
+                  <span class="mx-2">-</span>
+                  <span class="lc-tiempo-comentario">Hace 1 hora.</span>
+                </div>
+              </div>
+            </div>
+            <div class="comentario rounded d-flex gap-2 flex-nowrap bg-light p-2">
+              <span class="lc-avatar-comentarista bg-primary rounded p-3">IL</span>
+              <span class="separar-avatar-comentario"></span>
+              <div class="d-flex flex-column">
+                <span class="lc-comentario bg-white px-2 py-1 border-1 rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veritatis illo neque animi similique?</span>
+                <div>
+                  <i class="mx-1 fa-solid fa-thumbs-up"></i>11
+                  <i class="mx-1 fa-solid fa-thumbs-down"></i>1
+                  <span class="denunciar">Denunciar</span>
+                  <span class="mx-2">-</span>
+                  <span class="lc-tiempo-comentario">Hace 16 minutos.</span>
+                </div>
+              </div>
+            </div>
+            <div class="comentario rounded d-flex gap-2 flex-nowrap bg-light p-2">
+              <span class="lc-avatar-comentarista bg-secondary rounded p-3">ET</span>
+              <span class="separar-avatar-comentario"></span>
+              <div class="d-flex flex-column">
+                <span class="lc-comentario bg-white px-2 py-1 border-1 rounded">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                <div>
+                  <i class="mx-1 fa-solid fa-thumbs-up"></i>8
+                  <i class="mx-1 fa-solid fa-thumbs-down"></i>3
+                  <span class="denunciar">Denunciar</span>
+                  <span class="mx-2">-</span>
+                  <span class="lc-tiempo-comentario">Hace 11 minutos.</span>
+                </div>
+              </div>
+            </div>
+            <div class="comentario rounded d-flex gap-2 flex-nowrap bg-light p-2">
+              <span class="lc-avatar-comentarista bg-warning rounded p-3">AF</span>
+              <span class="separar-avatar-comentario"></span>
+              <div class="d-flex flex-column">
+              <span class="lc-comentario bg-white px-2 py-1 border-1 rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quo. Dolorem dolore ipsam omnis odit est temporibus perspiciatis neque. Fugiat repellat quos quasi similique dolore harum sed placeat doloribus. Ipsa?</span>
+              <div>
+                <i class="mx-1 fa-solid fa-thumbs-up"></i>2
+                <i class="mx-1 fa-solid fa-thumbs-down"></i>4
+                <span class="denunciar">Denunciar</span>
+                <span class="mx-2">-</span>
+                <span class="lc-tiempo-comentario">Hace 7 minutos.</span>
+              </div>
+            </div>
+          </div>
+          <hr class="my-3">
+          <form class="comentario rounded d-flex gap-2 bg-light p-2 flex-nowrap my-4" action="./404.html">
+            <label class="lc-avatar-comentarista bg-dark text-light rounded p-3" for="idComentario">Tú</label>
+            <span class="separar-avatar-comentario"></span>
+            <textarea class="lc-comentario bg-white px-2 py-1 border-1 rounded" id="idComentario" name="nConsulta" cols="50" rows="3" placeholder="Escribe un comentario..." required></textarea>
+            <button class="btn-enviar-consulta rounded" type="submit">Enviar</button>
+          </form>
+          
+        </section>
 
-    
-    <footer>
-      <div class="card text-center">
+        <div class="d-flex justify-content-center mb-2">
+            <span><a href="javascript:history.back(-1);" title="Ir la página anterior" class="p-2 mx-5 bg-dark rounded text-light">Volver</a></span>
+        </div>    
+        
+        <footer>
+          <div class="card text-center">
         <div class="card-body colorfoojose">
           <h5 class="card-title"> <img src="./img/fifa2022.png" alt="fifa"> </h5>
           <p class="card-text">Contacto</p>
@@ -119,7 +220,12 @@
       </div>
     </footer>
     
-
+<!----------------    boton para ir arriba     -------------->
+<div>
+  <a href="#inicio" class="ir-arriba">
+      <span class="text-center"><i class="fa-solid fa-circle-up"></i></span>
+  </a>
+</div>
 
     <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
