@@ -1,3 +1,7 @@
+*::selection{
+    background-color: rgba(37, 2, 90, 0.9);
+    color: rgb(241, 241, 241);
+}
 .cantidad-comentarios{
     font-size: 1rem;
     background-color: blue;
@@ -8,7 +12,12 @@
 
 }
 
-.lc-avatar-comentarista{
+.lc-avatar-comentarista1,
+.lc-avatar-comentarista2,
+.lc-avatar-comentarista3,
+.lc-avatar-comentarista4,
+.lc-avatar-comentarista5,
+.lc-avatar-comentarista-YO {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,15 +26,37 @@
     font-weight: bolder;
     border-radius: 50%;
     border: 1px solid rgb(168, 168, 168);
+    user-select: none;
+}
+
+.lc-avatar-comentarista1{
+    background-color: rgb(3, 2, 80);
+    color: white;
+}
+.lc-avatar-comentarista2{
+    background-color: crimson;
+    color: white;
+}
+.lc-avatar-comentarista3{
+    background-color: palevioletred;
+}
+.lc-avatar-comentarista4{
+    background-color: olivedrab;
+}
+.lc-avatar-comentarista5{
+    background-color: slateblue;
+    color: white;
 }
 
 .lc-comentario{
     border: 1px solid rgb(168, 168, 168);
+    background-color: azure;
+}
+.comentario {
+    width: fit-content;
 }
 
-.comentario{
-    width: fit-content;
-}   
+
 .lc-tiempo-comentario{
     align-self: center;
     font-style: italic;
@@ -44,7 +75,13 @@
     border: 1px solid rgb(168, 168, 168);
     background-color: rgba(48, 21, 122, 0.8);    
     color: white;
+    transition: 0.4s;
 }
+.btn-enviar-consulta:hover{
+    background-color: rgb(0, 89, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
 
 @media (max-width: 600px) {
 .lc-avatar-comentarista{
@@ -57,8 +94,35 @@
     font-size: 0.8rem;
     color: rgb(4, 4, 153);
     cursor: pointer;
+    padding-left: 5px;
 }
 
-textarea {
-    resize: none;
- }
+.fa-thumbs-up {
+    color: rgb(0, 0, 80);
+    cursor: pointer;
+    line-height: 1.5rem;
+    width: 14px;
+    transition: 0.3s;
+}
+
+.fa-thumbs-down {
+    color: rgb(0, 0, 80);
+    cursor: pointer;
+    line-height: 1.5rem;
+    width: 14px;
+    vertical-align: middle;
+}
+
+.fa-thumbs-up:hover, .fa-thumbs-down:hover{
+    scale: 1.15;
+    color: blue;
+}
+.denunciar:hover{
+    scale: 1.15;
+    color: rgb(158, 3, 3);
+    text-decoration: underline;
+}
+.fa-flag:hover{
+    scale: 1.15;
+    color: rgb(158, 3, 3);
+}

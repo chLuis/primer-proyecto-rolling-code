@@ -28,6 +28,7 @@ nav {
 .j-header-but{
   color: white;
   font-size: 0.8rem;
+  text-decoration: none !important;
 }
 .joseee{
   background-color: #A87E11 !important;
@@ -45,9 +46,9 @@ nav {
 }
 
 .btn-ingresar{
-  width: 125px;
+  width: 95px;
   transition: 0.5s;
-  padding: 2px 0px !important;
+  padding: 2px 5px !important;
 }
 
 .btn-ingresar:hover {
@@ -58,4 +59,13 @@ nav {
 
 .nav-item:hover{
   text-decoration: 2px underline;
+}
+
+*::selection{
+  background-color: rgba(37, 2, 90, 0.9);
+  color: rgb(241, 241, 241);
+}
+
+a{
+  text-decoration: none !important;
 }
