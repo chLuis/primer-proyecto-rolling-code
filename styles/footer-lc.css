@@ -19,7 +19,13 @@
     flex-wrap: wrap;
 }
 
+.redes-footer {
+    color: rgba(255, 255, 255, 0.350);
+}
+
+
 .lc-politicas {
+    color: white;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -45,7 +51,7 @@
 
 .separador-footer {
     border: 1px solid white;
-    height: 250px;
+    height: 280px;
     width: 0px;
 }
 
@@ -93,5 +99,8 @@
     scale: 1.05;
 }
 .redes-footer:hover{
-    scale: 1.1;
+    scale: 1.4;
+    color: white;
+    transition: 0.5s;
+    transform: rotate(360deg);
 }

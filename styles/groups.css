@@ -70,6 +70,7 @@ section button:hover {
     padding: 6px 10px;
     border-radius: 10px;
     transition: 0.5s;
+    z-index: 1;
 }
 .botonera:hover {
     border: 1px solid white;
@@ -83,6 +84,7 @@ section button:hover {
     margin-bottom: 10px;
     width: 25px;
     height: 25px;
+    z-index: -1;
 }
 
 .btn-botonera:hover {

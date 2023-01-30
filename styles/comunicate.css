@@ -83,7 +83,7 @@ input:focus, textarea:focus {
 }
 
 .lc-i:hover {
-    transform: rotate(25deg);
+    transform: rotate(360deg);
     cursor: pointer;
     scale: 1.4;
 }
@@ -98,18 +98,19 @@ input:focus, textarea:focus {
     width: 90vw;
     height: 45vh;
 }
+
 @media (max-width: 850px){
-.lc-mapita{
-    width: 70vw;
-    height: 35vh;
-}
+    .lc-mapita{
+        width: 70vw;
+        height: 35vh;
+    }
 }
 
 @media (max-width: 570px){
-.lc-mapita{
-    width: 90vw;
-    height: 35vh;
-}
+    .lc-mapita{
+        width: 90vw;
+        height: 35vh;
+    }
 }
 
 
