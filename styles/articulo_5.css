@@ -190,3 +190,10 @@ hr{
     font-size: .9rem;
 }
 
+.links-articulos{
+    width: fit-content;
+}
+
+.links-articulos:hover {
+    text-decoration: underline !important;
+}

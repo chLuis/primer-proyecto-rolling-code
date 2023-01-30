@@ -129,7 +129,7 @@ section {
     overflow: hidden;
 }
 .lc-descripcion-integrantes:hover{
-    transition: 0.3s;
+    transition: 0.35s;
     transform: rotate(1turn);
     background-color: rgba(0, 0, 0, 0.799);
     color: white;

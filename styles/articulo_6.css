@@ -33,11 +33,9 @@ hr{
 
 .division_2{
     background-color: #00b8ff;
-    height: 10px;
-    border: 0;
+    height: 100px;
+    width: 90%;
     border-bottom: 3px solid #f12c4b;
-    margin: 0 0 2rem;
-    padding: 0;
 
 }
 .card{
@@ -187,6 +185,6 @@ hr{
 }
 
 .links:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 

@@ -178,5 +178,5 @@ hr{
     text-decoration: none;
 }
 .links:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }

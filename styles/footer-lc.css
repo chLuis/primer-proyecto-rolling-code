@@ -104,3 +104,6 @@
     transition: 0.5s;
     transform: rotate(360deg);
 }
+.lc-footer-sect2 h5 {
+    font-size: 1rem;
+}

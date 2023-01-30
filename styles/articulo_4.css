@@ -148,5 +148,8 @@ body{
     font-family:'Poppins', sans-serif;
     font-weight:300;
     font-size: .9rem;
+    width: fit-content;
 }
-
+.cont-mas-fifa span:hover {
+    text-decoration: underline !important;
+}
