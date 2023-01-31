@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/navbar.css"/>
     <link rel="stylesheet" href="./styles/ir-arriba.css"/>
     <link rel="stylesheet" href="./styles/footer-lc.css">
+    <link rel="stylesheet" href="./styles/login.css">
     <script src="https://kit.fontawesome.com/5ca84b6286.js" crossorigin="anonymous"></script>
 </head>
 <body id="inicio">
@@ -76,25 +77,42 @@
                   </button>
         <!-- Modal -------------------------------------------------------------------------------------------->
         
-        <div class="modal fade" id="exampleModal" tabindex="-21" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade bg-dark bg-opacity-75" id="exampleModal" tabindex="-21" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Cuenta FIFA 2022</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                  <li>Requisitos:</li>
-                  <li>Correo</li>
-                  <li>Nombre completo</li>
-                  <li>Edad</li>
-                </ul>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Registrarse</button>
-                <button type="button" class="btn btn-primary">Iniciar sesión</button>
-              </div>
+                <div class="w-100 d-flex text-light modal-entero">
+                    <div class="login-izq">
+                        <div class="fondo-letras-login d-flex flex-column gap-4">
+                            <img class="mt-5 ms-4 me-5" src="./img/fifa.logo.webp" alt="fifa-logo" height="22px" width="90px">
+                            <h4 class="h4-modal ms-4 me-5 pt-5">La casa de todo lo relacionado con el fútbol</h4>
+                            <p class="mt-3 ms-4 me-5 fs-5">Regístrate para acceder a nuestros programas originales, documentales, y el mayor archivo futbolístico de la historia. ‘The Happiest Man in the World’ (“El hombre más feliz del mundo”) Solamente disponible en FIFA+</p>
+                        </div>
+                    </div>
+                    <div class="login-der d-flex flex-column align-items-center justify-content-around px-5">
+                        <h2 class="align-self-start">Iniciar sesión</h2>
+                        <form action="" class="text-light w-100">
+                            <label for="e-mail">E-mail</label>
+                            <br>
+                            <input type="text" required id="e-mail" class="input-login text-light w-100">
+                            <br>
+                            <label class="mt-3" for="password">Contraseña</label>
+                            <br>
+                            <input type="password" required id="password" class="input-login text-light w-100">
+                            <br>
+                            <button class="btn-login-iniciar text-light rounded-pill mt-4">INICIAR SESIÓN</button>
+                        </form>
+                        <p class="align-self-start"><a class="forget-pass align-self-start" href="./404.html">¿Has olvidado tu contraseña?</a></p>
+                        <div class="align-self-start">
+                            <p>¿No dispones de una cuenta?</p>
+                            <a href="./registro.html"><button class="btn-login-registrate text-light rounded-pill">REGISTRARSE</button></a>
+                        </div>
+                        <div class="align-self-start d-flex">
+                            <div><a class="links-modal-login" href="./404.html">Términos</a></div>
+                            <div class="px-3">|</div>
+                            <div><a class="links-modal-login" href="./404.html">Privacidad</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
