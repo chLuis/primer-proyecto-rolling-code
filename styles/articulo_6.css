@@ -12,7 +12,10 @@ body{
     background-color: rgb(228, 232, 240);
 }
 
-
+.img-fluid{
+    width: 100vw;
+    height: auto;
+}
 
 hr{
     box-sizing: initial;
@@ -28,7 +31,7 @@ hr{
     height: 1px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
+    width: 90%;
 }
 
 .division_2{
@@ -39,8 +42,7 @@ hr{
 }
 .card{
     height: 100%;
-    width: 100%;
-   
+    max-width: 100dvw;
 }
 
 .titulo-principal{
@@ -187,3 +189,6 @@ hr{
     text-decoration: underline !important;
 }
 
+.container{
+    width: 90dvw !important;
+}

@@ -14,7 +14,7 @@ body{
     height: 1px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
+    max-width: 90dvw;
 }
 .card{
     height: 100%;

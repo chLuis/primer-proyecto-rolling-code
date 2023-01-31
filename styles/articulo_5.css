@@ -38,7 +38,7 @@ hr{
     border-bottom: 3px solid #f12c4b;
     margin: 0 0 2rem;
     padding: 0;
-
+    min-width: 95%;
 }
 
 .card{
@@ -196,4 +196,12 @@ hr{
 
 .links-articulos:hover {
     text-decoration: underline !important;
+}
+
+.messi_anto {
+    max-width: 100dvw;
+}
+
+.container {
+    max-width: 100dvw;
 }
