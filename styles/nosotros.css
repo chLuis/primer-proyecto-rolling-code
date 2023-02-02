@@ -67,6 +67,7 @@ section {
     color: rgb(214, 214, 214);
     width: 90%;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .lc-foto-nosotros {
@@ -97,10 +98,15 @@ section {
 .lc-foto-integrantes{
     border-radius: 50%;
     transition: 0.4s;
+    width: 420px;
+    height: 420px;
+}
+@media (max-width: 550px){
+.lc-foto-integrantes{ 
     max-width: 320px;
     max-height: 320px
 }
-
+}
 
 .lc-contenedor-cada-foto{
     position: relative;
