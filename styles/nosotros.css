@@ -7,16 +7,32 @@ body {
     padding: 0;
     min-height: 100vh;
     height: 100%;
-    background-image: url("../img/about-us-1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     overflow-x: hidden;
+    background-image: url("../img/fondo-nosotros.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    /* background: rgb(35,0,238);
+    background: linear-gradient(180deg, rgb(19, 0, 128) 0%, rgb(2, 0, 95) 50%, rgb(0, 2, 10) 100%); */
 }
 section {
     min-height: 80vh;
 }
+.h2-nosotros{
+    height: 20dvh;
+    background-image: url("../img/acercaNosotros.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.span-nosotros {
+    font-size: 3rem;
+    letter-spacing: 8px;
+    color: white;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+
 .card{
     background-color: #1a1a1a90;
     backdrop-filter: blur(12px);
@@ -32,7 +48,7 @@ section {
     padding: 10px 0px;
     background-color: #4d4c4ccf;
     letter-spacing: 8px;
-    color: white;
+    color: rgb(216, 216, 216);
     font-size: 2rem;
 }
 .lc-nosotros-div{
@@ -48,9 +64,9 @@ section {
 
 .lc-nosotros-blog {
     padding: 10px 0px;
-    background-color: #4d4c4ccf;
-    color: white;
-    text-align: justify;
+    color: rgb(214, 214, 214);
+    width: 90%;
+    font-size: 1.2rem;
 }
 
 .lc-foto-nosotros {
@@ -75,24 +91,14 @@ section {
 
 
 
-.probando{
-    position: relative;
-
-}
-
-.probando-nombre{
-    position: absolute;
-    bottom: 0%;
-    text-align: center;
-    width: 100%;
-}
-
 .card-i {
     border-radius: 50px !important;
 }
 .lc-foto-integrantes{
     border-radius: 50%;
     transition: 0.4s;
+    max-width: 320px;
+    max-height: 320px
 }
 
 
@@ -127,6 +133,7 @@ section {
     border-radius: 50%;
     line-height: 32px;
     overflow: hidden;
+    padding: 36px;
 }
 .lc-descripcion-integrantes:hover{
     transition: 0.35s;
@@ -134,11 +141,13 @@ section {
     background-color: rgba(0, 0, 0, 0.799);
     color: white;
     cursor: pointer;
+    box-shadow: inset 1px 2px 3px 4px rgb(173, 197, 209), inset -1px -2px 3px 4px rgb(173, 197, 209);
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1600px) {    
 .lc-nosotros-en-fotos{
     width: 100vw;
     scale: 0.8;
 }
 }
+

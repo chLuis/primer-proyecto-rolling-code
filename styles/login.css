@@ -2,6 +2,7 @@
     border: 2px solid rgba(255, 255, 255, 0.649);
 }
 .login-izq {
+    padding: 20px 0px;
     background-image: url("../img/fifa-login.webp");
     background-position: center;
     background-repeat: no-repeat;
@@ -21,6 +22,7 @@
 
 
 .login-der {
+    padding: 20px 0px;
     background: rgb(2,17,43);
     background: linear-gradient(rgba(2,17,43,1) 0%, rgba(2,26,72,1) 50%, rgb(31, 0, 133) 100%);
     min-height: 70dvh;
