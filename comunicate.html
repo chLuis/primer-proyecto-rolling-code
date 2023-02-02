@@ -125,29 +125,35 @@
         <div class="text-center p-4 lc-comunicate-imagen mx-0 col-12">
             <h1 class="lc-comunicate-h1 mx-0">Comunicate con nosotros</h1>
         </div>
-        <div class="container-fluid mx-auto ps-0 ps-sm-5 d-flex flex-column row">
+        <div class="contenedor-interaccion-usuario d-flex flex-column row">
             <div class="my-4 col-12">
                 <h4>¡Hola! ¿En qué podemos ayudarte?</h4>
                 <p>Completa el siguiente formulario para contactarte con nosotros</p>
             </div>
-            <div class="col-12">
+            <div class="">
                 <form action="./consulta-enviada.html">
-                    <label class="col-12 col-sm-4 col-lg-2 py-1 my-1" for="idContacto">Motivo de tu consulta</label>
-                    <input class="input-comunicate col-12 col-sm-6 p-1 my-1" type="text" id="idContacto" name="nContacto" placeholder="Artículos elegidos" required>
+                    <div class="d-flex inputs-comunicate justify-content-between">
+                      <label class="py-1 " for="idContacto">Motivo de tu consulta</label>
+                      <input class="input-comunicate p-1 " type="text" id="idContacto" name="nContacto" placeholder="Artículos elegidos" required>
+                    </div>
                     <br>
-                    <label class="col-12 col-sm-4 col-lg-2 py-1 my-1" for="idEmail">Tu correo electronico</label>
-                    <input class="input-comunicate col-12 col-sm-6 p-1 my-1" type="text" id="idEmail" name="nEmail" placeholder="fifa.world.cup@mail.com" required>
+                    <div class="d-flex inputs-comunicate justify-content-between">
+                    <label class="py-1 " for="idEmail">Tu correo electronico</label>
+                    <input class="input-comunicate p-1 " type="text" id="idEmail" name="nEmail" placeholder="fifa.world.cup@mail.com" required>
+                    </div>
                     <br>
-                    <label class="col-12 col-sm-4 col-lg-2 py-1 my-1 align-top" for="idConsulta">Detalle</label>
-                    <textarea class="textarea-comunicate col-12 col-sm-6 p-1 my-1" id="idConsulta" name="nConsulta" cols="45" rows="10" placeholder="Detallanos tu consulta para que podamos tener un mejor contacto con vos" required></textarea>
+                    <div class="d-flex inputs-comunicate justify-content-between">
+                    <label class="py-1 align-top" for="idConsulta">Detalle</label>
+                    <textarea class="textarea-comunicate p-1" id="idConsulta" name="nConsulta" rows="5" placeholder="Detallanos tu consulta para que podamos tener un mejor contacto con vos" required></textarea>
+                    </div>
                     <br>
-                    <div class="container-fluid d-sm-flex">
-                    <div class="col-12 col-sm-4 col-lg-2 py-1 my-1"></div>
-                    <button class="col-12 col-sm-6 my-1 py-1 rounded btn-enviar text-black" type="submit"><span class="texto-en-boton">Enviar</span></button>
+                    <div class="d-flex inputs-comunicate justify-content-between">
+                    <div class="py-1 "></div>
+                    <button class="py-1 rounded btn-enviar text-black" type="submit"><span class="texto-en-boton">Enviar</span></button>
                     </div>
                 </form>
             </div>
-            <div class="my-5 mx-auto lc-mapita">
+            <div class="my-5 mx-auto col-12 lc-mapita">
               <h4>Nuestra ubicación para que puedas acercarte!</h4>
               <iframe class="lc-mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370980861!2d-65.20977672413387!3d-26.836696090032696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1672695605462!5m2!1ses!2sar" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
