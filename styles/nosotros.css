@@ -12,8 +12,6 @@ body {
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    /* background: rgb(35,0,238);
-    background: linear-gradient(180deg, rgb(19, 0, 128) 0%, rgb(2, 0, 95) 50%, rgb(0, 2, 10) 100%); */
 }
 section {
     min-height: 80vh;
@@ -101,10 +99,11 @@ section {
     width: 420px;
     height: 420px;
 }
+
 @media (max-width: 550px){
 .lc-foto-integrantes{ 
-    max-width: 320px;
-    max-height: 320px
+    max-width: 310px;
+    max-height: 310px
 }
 }
 
@@ -113,7 +112,7 @@ section {
 }
 .lc-nombre-en-foto {
     position: absolute;
-    bottom: -30px;
+    bottom: -45px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     justify-self: center;
@@ -122,6 +121,8 @@ section {
     left: 15%;
     text-align: center;
     color: white;
+    box-shadow: inset 1px 2px 3px 4px rgb(173, 197, 209), inset -1px -2px 3px 4px rgb(173, 197, 209);
+    padding: 10px 0px;
 }
 
 .lc-descripcion-integrantes{
@@ -140,20 +141,18 @@ section {
     line-height: 32px;
     overflow: hidden;
     padding: 36px;
+    box-shadow: inset 1px 2px 3px 4px rgb(173, 197, 209), inset -1px -2px 3px 4px rgb(173, 197, 209);
 }
 .lc-descripcion-integrantes:hover{
     transition: 0.35s;
-    transform: rotate(1turn);
     background-color: rgba(0, 0, 0, 0.799);
     color: white;
     cursor: pointer;
-    box-shadow: inset 1px 2px 3px 4px rgb(173, 197, 209), inset -1px -2px 3px 4px rgb(173, 197, 209);
+    box-shadow: inset 1px 2px 3px 5px rgb(10, 71, 102), inset -1px -2px 3px 5px rgb(10, 71, 102);
 }
 
 @media (min-width: 1600px) {    
 .lc-nosotros-en-fotos{
     width: 100vw;
-    scale: 0.8;
 }
 }
-
